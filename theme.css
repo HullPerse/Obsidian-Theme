@@ -1,0 +1,141 @@
+/* HullPerse Theme for Obsidian */
+/* Built from the provided Zed theme palette */
+
+.theme-dark {
+    --color-base-00: #20202a;
+    --color-base-05: #24242f;
+    --color-base-10: #2c2c3b;
+    --color-base-20: #2c2c3b;
+    --color-base-25: #323243;
+    --color-base-30: #3b3b4d;
+    --color-base-35: #4a4a60;
+    --color-base-40: #63638a;
+    --color-base-50: #7f7f9d;
+    --color-base-60: #a6a6bd;
+    --color-base-70: #cccccc;
+    --color-base-100: #e5e5e5;
+
+    --mono-rgb-0: 0, 0, 0;
+    --mono-rgb-100: 255, 255, 255;
+
+    --background-primary: #20202a;
+    --background-primary-alt: #2c2c3b;
+    --background-secondary: #2c2c3b;
+    --background-secondary-alt: #373749;
+    --background-modifier-hover: #ffffff1a;
+    --background-modifier-active-hover: #d7d7ff1c;
+    --background-modifier-border: #d7d7ff5c;
+    --background-modifier-border-hover: #d7d7ff;
+    --background-modifier-border-focus: #d7d7ff;
+    --background-modifier-message: #2c2c3b;
+    --background-modifier-form-field: #20202a;
+    --background-modifier-error: #f66b7744;
+    --background-modifier-error-hover: #ff3f503e;
+    --background-modifier-success: #97c1784c;
+    --background-modifier-success-rgb: 151, 193, 120;
+
+    --interactive-normal: #2c2c3b;
+    --interactive-hover: #ffffff1a;
+    --interactive-accent: #d7d7ff;
+    --interactive-accent-hsl: 240, 100%, 92%;
+    --interactive-accent-hover: #e5e5e5;
+
+    --text-normal: #cccccc;
+    --text-muted: #d7d7ff66;
+    --text-faint: #d7d7ff52;
+    --text-on-accent: #20202a;
+    --text-accent: #d7d7ff;
+    --text-accent-hover: #e5e5e5;
+    --text-error: #ff3f50;
+    --text-warning: #e5bc66;
+    --text-success: #97c178;
+
+    --text-selection: #d7d7ff33;
+    --text-highlight-bg: #e859a93e;
+    --caret-color: #d7d7ff;
+
+    --scrollbar-thumb-bg: #ffffff24;
+    --scrollbar-thumb-bg-hover: #ffffff32;
+    --scrollbar-thumb-bg-active: #ffffff66;
+
+    --titlebar-background: #2c2c3b;
+    --tab-container-background: #20202a;
+    --status-bar-background: #373749;
+
+    --hr-color: #d7d7ff32;
+    --blockquote-border-color: #d7d7ff5c;
+    --table-border-color: #d7d7ff32;
+
+    --tag-background: #3e3e4f;
+    --tag-color: #cccccc;
+    --tag-border-color: #d7d7ff5c;
+}
+
+.theme-dark .cm-editor,
+.theme-dark .markdown-preview-view {
+    --code-background: #20202a;
+    --code-normal: #cccccc;
+    --code-comment: #7f838c;
+    --code-keyword: #c678dd;
+    --code-function: #61afef;
+    --code-property: #e06c75;
+    --code-operator: #abb2bf;
+    --code-string: #98c379;
+    --code-number: #d19a66;
+    --code-tag: #e06c75;
+    --code-value: #d19a66;
+}
+
+.theme-dark .cm-s-obsidian span.cm-comment {
+    color: #7F838C;
+}
+
+.theme-dark .cm-s-obsidian span.cm-string {
+    color: #98c379;
+}
+
+.theme-dark .cm-s-obsidian span.cm-number {
+    color: #d19a66;
+}
+
+.theme-dark .cm-s-obsidian span.cm-keyword {
+    color: #c678dd;
+}
+
+.theme-dark .cm-s-obsidian span.cm-operator {
+    color: #abb2bf;
+}
+
+.theme-dark .cm-s-obsidian span.cm-variable-2,
+.theme-dark .cm-s-obsidian span.cm-variable-3 {
+    color: #e06c75;
+}
+
+.theme-dark .cm-s-obsidian span.cm-property {
+    color: #e06c75;
+}
+
+.theme-dark .cm-s-obsidian span.cm-builtin {
+    color: #61afef;
+}
+
+.theme-dark .cm-s-obsidian span.cm-def {
+    color: #61afef;
+}
+
+.theme-dark .cm-s-obsidian span.cm-tag {
+    color: #e06c75;
+}
+
+.theme-dark .cm-s-obsidian span.cm-atom {
+    color: #d19a66;
+}
+
+.theme-dark .cm-s-obsidian span.cm-link {
+    color: #61afef;
+}
+
+.theme-dark .cm-s-obsidian span.cm-formatting,
+.theme-dark .cm-s-obsidian span.cm-punctuation {
+    color: #abb2bf;
+}
